@@ -60,7 +60,7 @@ class OperDb2:
             if tablename is None:
                 import random
 
-                tbname = 'EGSPM_TRANSACTION_TRACE_%d' % (random.randint(1, 5))
+                tbname = 'xxx%d' % (random.randint(1, 5))
             else:
                 tbname = tablename
             insertsql = "insert into %s(...) values(?, ?, ?, ?, ?, ?, \
@@ -99,7 +99,7 @@ class OperMysql:
             if tablename is None:
                 import random
 
-                tbname = 'EGSPM_TRANSACTION_TRACE_%d' % (random.randint(1, 5))
+                tbname = 'xxx%d' % (random.randint(1, 5))
             else:
                 tbname = tablename
             insertsql = "insert into " + tbname + "(...) values(%s, %s, %s, %s, %s, %s, \
