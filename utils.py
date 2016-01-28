@@ -148,7 +148,7 @@ if __name__ == '__main__':
         start_time = time.time()
         print 'current time:{}, start_time:{}'.format(datetime.datetime.now(), start_time)
 
-        mysql.insert_many_records(query_datalist, 2000, 'EGSPM_TRANSACTION_TRACE')
+        mysql.insert_many_records(query_datalist, 2000, 'EGAAA
         end_time = time.time()
         print 'current time:{}, end time:{}, taken:{}'.format(datetime.datetime.now(),
                                                               end_time, end_time - start_time)
